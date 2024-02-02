@@ -169,7 +169,9 @@
   z-index: 1;
 }
 }
+@media screen and (max-width: 1490px) {
 
+}
 @media screen and (max-width: 1205px) {
   .nav {
     justify-content: center;
@@ -214,8 +216,8 @@
 }
 @media screen and (max-width: 1025px) {
   .black-banner {
-      left: 53%;
-  }
+    left: 48%;
+}
 }
 @media screen and (max-width: 1024px) {
   .black-banner {
@@ -224,8 +226,8 @@
       height: 3.5rem;
       width: 30rem;
       position: absolute;
-      left: 52%;
-      top: 57%;
+      left: 48%;
+      top: 55%;
       z-index: -1;
   }
   .container {
@@ -256,6 +258,18 @@ align-items: center;
     display: flex;
     padding: 14px 0;
     margin: 16px 6rem;
+}
+.blue-hero {
+  background-color: #244ac2;
+  color: white;
+  font-size: large;
+  text-align: center;
+  height: 3.5rem;
+  width: 30rem;
+  position: absolute;
+  left: 9%;
+  top: 55%;
+  z-index: 2;
 }
 }
 @media screen and (max-width: 956px) {
@@ -324,7 +338,7 @@ align-items: center;
   width: 30rem;
   position: absolute;
   left: 9%;
-  top: 56%;
+  top: 53%;
   z-index: 2;
 }
 }

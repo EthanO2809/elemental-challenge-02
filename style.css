@@ -14,7 +14,7 @@
   justify-content: center;
   display: flex;
   padding: 14px 0;
-  margin: 18px 18rem;
+  margin: 18px 18.2rem;
 }
 .nav a img {
   height: 40px;
@@ -1034,6 +1034,12 @@ p {
   font-weight: 300;
 }
 @media screen and (max-width: 1890px){
+  .nav {
+    justify-content: center;
+    display: flex;
+    padding: 14px 0;
+    margin: 18px 17.9rem;
+}
   .col-sec {
     display: grid;
     grid-template-columns: 25.5rem 21.5rem 25.5rem;
@@ -1043,6 +1049,12 @@ p {
 }
 }
 @media screen and (max-width: 1840px){
+  .nav {
+    justify-content: center;
+    display: flex;
+    padding: 14px 0;
+    margin: 18px 17.4rem;
+}
   .col-sec {
     display: grid;
     grid-template-columns: 23.5rem 23.5rem 23.5rem;
@@ -1061,12 +1073,18 @@ p {
 }
 }
 @media screen and (max-width: 1750px){
-  .col-sec {
-    display: grid;
-    grid-template-columns: 22rem 22rem 22rem;
-    grid-template-rows: auto auto;
+  .nav {
     justify-content: center;
-    gap: 5rem;
+    display: flex;
+    padding: 14px 0;
+    margin: 18px 16.6rem;
+}
+.col-sec {
+  display: grid;
+  grid-template-columns: 21.6rem 21.6rem 21.6rem;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  gap: 5rem;
 }
 }
 @media screen and (max-width: 1685px){
@@ -1079,6 +1097,12 @@ p {
 }
 }
 @media screen and (max-width: 1630px){
+  .nav {
+    justify-content: center;
+    display: flex;
+    padding: 14px 0;
+    margin: 18px 15.4rem;
+}
   .col-sec {
     display: grid;
     grid-template-columns: 20.4rem 20.4rem 20.4rem;
@@ -1088,6 +1112,12 @@ p {
 }
 }
 @media screen and (max-width: 1600px) {
+  .nav {
+    justify-content: center;
+    display: flex;
+    padding: 14px 0;
+    margin: 18px 15rem;
+}
   .col-sec {
     display: grid;
     grid-template-columns: 21.5rem 21.5rem 21.5rem;
@@ -1103,6 +1133,12 @@ p {
 }
 }
 @media screen and (max-width: 1538px){
+  .nav {
+    justify-content: center;
+    display: flex;
+    padding: 14px 0;
+    margin: 18px 14.6rem;
+}
   .col-sec {
     display: grid;
     grid-template-columns: 19rem 19rem 19rem;
@@ -1130,6 +1166,12 @@ p {
 }
 }
 @media screen and (max-width: 1440px) {
+  .nav {
+    justify-content: center;
+    display: flex;
+    padding: 14px 0;
+    margin: 18px 13.6rem;
+}
   .col-sec {
     display: grid;
     grid-template-columns: 12.5rem 4.5rem 12.5rem;
@@ -1155,6 +1197,12 @@ p {
 }
 }
 @media screen and (max-width: 1395px) {
+  .nav {
+    justify-content: center;
+    display: flex;
+    padding: 14px 0;
+    margin: 18px 13rem;
+}
   .col-sec {
     display: grid;
     grid-template-columns: 11.5rem 3.5rem 11.5rem;
@@ -1180,6 +1228,12 @@ p {
 }
 }
 @media screen and (max-width: 1370px){
+  .nav {
+    justify-content: center;
+    display: flex;
+    padding: 14px 0;
+    margin: 18px 13rem;
+}
   .col-sec {
     display: grid;
     grid-template-columns: 6.5rem 8.5rem 6.5rem;
@@ -1216,6 +1270,12 @@ p {
 }
 }
 @media screen and (max-width: 1350px){
+  .nav {
+    justify-content: center;
+    display: flex;
+    padding: 14px 0;
+    margin: 18px 13rem;
+}
   .col-sec {
     display: grid;
     grid-template-columns: 6.5rem 8.5rem 6.5rem;
@@ -1384,7 +1444,7 @@ p {
 @media screen and (max-width: 1170px){
   .col-sec {
     display: grid;
-    grid-template-columns: 5rem 5rem 5rem;
+    grid-template-columns: 4rem 5rem 4rem;
     grid-template-rows: auto auto;
     justify-content: center;
     gap: 13rem;
@@ -1416,7 +1476,7 @@ p {
   height: 3.5rem;
   width: 24rem;
   position: absolute;
-  left: 65%;
+  left: 59%;
   top: 52%;
   z-index: -1;
 }
@@ -1502,6 +1562,12 @@ p {
 }
 }
 @media screen and (max-width: 1040px) {
+  .nav {
+    justify-content: center;
+    display: flex;
+    padding: 14px 0;
+    margin: 18px 10rem;
+}
   .col-sec {
     display: grid;
     grid-template-columns: 4rem 2rem 4rem;
@@ -1542,6 +1608,12 @@ p {
 }
 }
 @media screen and (max-width: 1024px) {
+  .nav {
+    justify-content: center;
+    display: flex;
+    padding: 14px 0;
+    margin: 18px 9.9rem;
+}
   .col-sec {
     display: grid;
     grid-template-columns: 4rem 2rem 4rem;
@@ -1622,6 +1694,12 @@ p {
 }
 }
 @media screen and (max-width: 950px) {
+  .nav {
+    justify-content: center;
+    display: flex;
+    padding: 14px 0;
+    margin: 18px 8.5rem;
+}
   .col-sec {
     display: grid;
     grid-template-columns: 2rem 2rem 2rem;
@@ -1662,6 +1740,12 @@ p {
 }
 }
 @media screen and (max-width: 940px) {
+  .nav {
+    justify-content: center;
+    display: flex;
+    padding: 14px 0;
+    margin: 18px 8.4rem;
+}
   .col-sec {
     display: grid;
     grid-template-columns: 2rem 2rem 2rem;
@@ -1702,6 +1786,12 @@ p {
 }
 }
 @media screen and (max-width: 920px) {
+  .nav {
+    justify-content: center;
+    display: flex;
+    padding: 14px 0;
+    margin: 18px 8.4rem;
+}
   .col-sec {
     display: grid;
     grid-template-columns: 2rem 1rem 2rem;
@@ -1783,6 +1873,12 @@ p {
 }
 
 @media screen and (max-width: 828px) {
+  .nav {
+    justify-content: center;
+    display: flex;
+    padding: 14px 0;
+    margin: 18px 7.4rem;
+}
   .col-sec {
     display: grid;
     grid-template-columns: 0rem 0rem 0rem !important;
@@ -1823,6 +1919,12 @@ p {
 }
 }
 @media screen and (max-width: 812px) {
+  .nav {
+    justify-content: center;
+    display: flex;
+    padding: 14px 0;
+    margin: 18px 5.4rem;
+}
   .col-sec {
     display: grid;
     grid-template-columns: 1.4rem 1.4rem 1.4rem !important;
@@ -1870,6 +1972,12 @@ p {
     justify-content: center;
     gap: 12.2rem;
     justify-items: center;
+}
+.nav {
+  justify-content: center;
+  display: flex;
+  padding: 14px 0;
+  margin: 18px 5rem;
 }
 .box-1 {
   background-color: #061c2c;
@@ -1940,6 +2048,12 @@ p {
   left: 65%;
   top: 55%;
   z-index: -1;
+}
+.nav {
+  justify-content: center;
+  display: flex;
+  padding: 14px 0;
+  margin: 18px 3rem;
 }
 }
 @media screen and (max-width: 731px) {
@@ -2196,9 +2310,20 @@ p {
   color: white;
   height: 10rem;
   width: 10rem;
+  font-size: 12px;
   padding-left: 20px;
   padding-top: 18px;
   margin-bottom: 1.5rem;
+}
+.sub-boxes {
+  background-color: #244ac2;
+  color: white;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+  padding: 2px 22px;
 }
 .sub-box {
   display: grid;
@@ -2220,6 +2345,10 @@ p {
   left: 65%;
   top: 50%;
   z-index: -1;
+}
+.blue-hero p {
+  margin-top: 4.5%;
+  font-size: 16px;
 }
 }
 @media screen and (max-width: 564px) {
@@ -2270,6 +2399,9 @@ p {
     justify-content: center;
     gap: 10.2rem;
     justify-items: center;
+}
+.blue-hero p {
+  font-size: 12px;
 }
 .box-1 {
   background-color: #061c2c;

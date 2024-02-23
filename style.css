@@ -14,7 +14,7 @@
   justify-content: center;
   display: flex;
   padding: 14px 0;
-  margin: 18px 23rem;
+  margin: 18px 18rem;
 }
 .nav a img {
   height: 40px;
@@ -136,7 +136,7 @@
   margin-top: 3%;
 }
 .visio-text{
-  font-size:1.1rem;
+  font-size: 19px !important;
 }
 .black-banner {
   background-color: black;
@@ -203,8 +203,15 @@
 }
 @media screen and (max-width: 1080px) {
   .black-banner {
-      left:55.4%;
-  }
+    background-color: black;
+    display: inline-block;
+    height: 3.5rem;
+    width: 18rem;
+    position: absolute;
+    left: 56%;
+    top: 52%;
+    z-index: -1;
+}
   .container {
       width: 100%;
   display: flex;
@@ -990,6 +997,7 @@ align-items: center;
   padding-left: 20px;
   padding-top: 18px;
   margin-bottom: 1.5rem;
+  font-size: 17px;
 }
 .box-1 img {
   height: auto;
@@ -1007,15 +1015,23 @@ align-items: center;
 .sub-boxes {
   background-color: #244ac2;
   color: white;
-  height: 2rem;
+  height: 3rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: xx-small;
+  font-size: 14px;
   padding: 2px 22px;
 }
 .sub-boxes img {
   width: 1.5rem;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+p {
+  font-weight: 300;
 }
 @media screen and (max-width: 1890px){
   .col-sec {
